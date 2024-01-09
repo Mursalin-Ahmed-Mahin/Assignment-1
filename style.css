@@ -423,10 +423,14 @@ line-height: 32px;
 }
 
 .emailinput {
-  border: 2px solid #fd0004;
-  border-radius: 50px;
+  border-left: 2px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 50px 0px 0px 50px;
   padding: 10px;
-  width: 300px;
+  width: 400px;
+  height: 60px;
   outline: none;
 }
 .subButton {
@@ -489,6 +493,10 @@ line-height: 32px;
   justify-content: center;
   padding:50px 0;
   
+}
+
+.icons img{
+  margin-right: 20px;
 }
 
 .rights {
