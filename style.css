@@ -96,7 +96,7 @@ font-weight: 700;
 /* Welcome tp party */
 
 .party{
-  background-image: url(resources/Vectorrr.png), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 1320px;
@@ -153,10 +153,12 @@ font-weight: 700;
 
 .joinNowBackgroung {
   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 16px;
   width: 1320px;
   height: 482px;
   flex-shrink: 0;
   margin: auto;
+  margin-top: 80px;
 }
 
 .partyInfo {
