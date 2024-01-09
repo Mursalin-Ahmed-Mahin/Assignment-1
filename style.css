@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* Header Section */
+.bannerDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBanner {
+  background: url("resources/Banner-Image.png"),
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 80%);
+  background-blend-mode: overlay;
+  width: 80%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.bannerTitleBox {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleBox {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin-bottom: 100px;
+}
+
+.subTitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* main body new year */
+
+.OFF {
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 48px;
+
+}
+
+.holiday {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.catagories {
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+
+}
+
+
+.newYear {
+  width: 802.9px;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+
+/* Welcome tp party */
+
+.party{
+  background-image: url(resources/Vectorrr.png), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.midnightParty {
+  width: 642px;
+  color: #FFF; 
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.Celebration {
+  color: #FFF;
+  width: 697px;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+
+.join {
+border: none;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+}
+
+.midnightBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+/* jon  now section */
+
+
+.joinNowBackgroung {
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.partyInfo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.joinNowButton {
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.pdt1 {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.pdt {
+  color: #F00;
+}
+
+/* jon  now section finished */
+
+
+/* New BEst Offer section */
+
+.newBestOfferBox {
+  /* background-color: rgb(23, 110, 204); */
+  width: 1320px;
+  height: 482px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+
+.newB{
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.Csoon {
+  color: #070211;
+  font-family: 'Inter';
+  font-size: 48px;
+  font-weight: 900;
+}
+.newDes {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.second2 {
+    width: 420px;
+      height: 420px;
+      border: 10px solid red;
+      border-radius: 50%;
+      overflow: hidden;
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.y2024 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.cleleb {
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-style: normal;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.icon24{
+  margin-top: 34px;
+}
+/* New BEst Offer section  End*/
+
+/* Whta is funtional section*/
+
+.discountDes {
+  /* background-color: aqua; */
+  width: 1320px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.wif {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hs5 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+}
+.hs5r {
+  color: #F00;
+}
+
+.hs5d {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+/* Whta is funtional section END*/
+
+
+/* 50% DICOUNT AND GIFT SECTION */
+
+
+
+
+/* 50% DICOUNT AND GIFT SECTION END*/
+
+
+
+
+
+/*Our awesome port folio*/
+.portfolio1 {
+  /* background-color: rgb(255, 255, 0); */
+  width: 1320px;
+  height: 200px;
+  margin: auto;
+  margin-top:10%;
+}
+
+.gifts {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.awesome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.lookAtThese {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+/*Our awesome port folio end*/
+
+/*Flex pictures*/
+
+.flex {
+  /* background-color: aqua; */
+  width: 1320px;
+  margin: auto;
+}
+
+.flexPic1 {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.flexPic2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+}
+
+/*Flex pictures end*/
+
+
+
+
+
+
+/*Newsletter*/
+
+.newsletter {
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 100px;
+
+}
+.emailicon {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.Subnew {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900; 
+  }
+
+
+.subinfo {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.makeone {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.emailinput {
+  border: 2px solid #fd0004;
+  border-radius: 50px;
+  padding: 10px;
+  width: 300px;
+  outline: none;
+}
+.subButton {
+  background-color: #fc000d;
+      color: white;
+      border: none;
+      border-radius: 0px 50px 50px 0px;
+      padding: 10px 20px;
+      cursor: pointer;
+}
+
+
+/*Newsletter End */
+
+
+
+/*footer */
+
+.footerback {
+  background-color: #070211;
+  width: 100%;
+  height: 609px;
+  margin: auto; 
+}
+
+.adress {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.numWeb {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.adressNum {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.rights {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Unsubscribe {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.rightsEnd {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+/*footer End */
