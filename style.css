@@ -283,7 +283,7 @@ line-height: 32px;
 
 .hs5 {
   text-align: center;
-  font-family: Merriweather;
+  font-family: Inter;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -308,6 +308,40 @@ line-height: 32px;
 
 /* 50% DICOUNT AND GIFT SECTION */
 
+
+.discountSec {
+  width: 1320px;
+  height: 100%;
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.discountGroupImg .img1 {
+  width: 45%;
+  position: absolute;
+  top: 120px;
+}
+.img23 {
+  margin-left: 578px;
+}
+.dis50 {
+position: absolute;
+left: 750px;
+top: 50px;
+}
+.dis52{
+  margin-left: 310px;
+}
+.discountGroupImg {
+  display: flex;
+  position: relative;
+
+}
+
+.discountImg {
+
+}
 
 
 
